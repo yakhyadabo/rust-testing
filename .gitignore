@@ -1,0 +1,19 @@
+*
+!.gitattributes
+!.gitignore
+!.gitkeep
+!README.adoc
+!Makefile
+!Dockerfile
+!*.toml
+!*.yml
+!*.yaml
+!*.rs
+!*.json
+!*.sh
+!*/
+
+
+# Added by cargo
+
+/target
