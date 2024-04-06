@@ -1,4 +1,6 @@
 mod model;  // Import Module model
+mod tests;
+
 mod numbers;
 
 use crate::model::company::Company;
