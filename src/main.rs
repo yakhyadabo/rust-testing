@@ -3,6 +3,8 @@ mod tests;
 
 mod numbers;
 
+mod strings;
+
 use crate::model::company::Company;
 use crate::model::client::Client;
 
