@@ -1,0 +1,34 @@
+= Sample RUST Project
+
+== Setup in MACOS
+
+=== Install RUSTUP
+
+```source = bash
+$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+Test Installation
+```source = bash
+$ rustc --version
+```
+
+=== Hello World
+```source = rust
+fn main() {
+    // Statements here are executed when the compiled binary is called.
+
+    // Print text to the console.
+    println!("Hello World!");
+}
+```
+
+Generate binary using the Rust compiler.
+```
+$ rustc hello.rs
+```
+
+Run
+```
+$ ./hello
+```
+
